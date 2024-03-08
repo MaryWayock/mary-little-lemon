@@ -4,7 +4,7 @@ import logo from './icons_assets/Logo.svg'
 function Header() {
   return (
     <div>
-      <img alt="little lemon logo" src={logo}/>
+      <img id="HeaderLogo" alt="little lemon logo" src={logo}/>
     </div>
   )
 }

@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#HeaderNav.flex-container {
+  display: flex;
+  justify-content: left;
+}
+
+#HeaderLogo {
+  margin: 1rem;
+}
+
+#PageNav {
+  list-style: none;
+  margin-top: 1.6rem;
+}
+
+#PageNav li {
+  display: inline;
+  margin: .5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}

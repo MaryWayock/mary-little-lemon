@@ -7,8 +7,10 @@ import Footer from '../Footer';
 function Layout() {
   return (
     <div>
-      <Header/>
-      <Nav/>
+      <div id="HeaderNav" class="flex-container">
+        <Header/>
+        <Nav/>
+      </div>
       <Outlet/>
       <Footer/>
     </div>
