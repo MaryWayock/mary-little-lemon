@@ -9,11 +9,11 @@ function Welcome() {
     <div>
       <section class='container' id='WelcomeSection'>
           <div class='column'  >
-            <h1>Welcome to Little Lemon</h1>
+            <h1>Little Lemon</h1>
             <h3>New York</h3>
-            <p>We are a family run Italian restaurant. <br/> 
-              One bite of our gabogul <br/>
-              and you'll feel like your back in the old country!</p>
+            <p>We are a family owned Mediterranean restaurant, <br/> 
+              focused on traditional recipes <br/>
+              served with a modern twist.</p>
             <button>Reserve a Table</button>
           </div>
           <div class='column'>
@@ -22,7 +22,7 @@ function Welcome() {
       </section>
       <section id='SpecialsSection'>
         <div>
-          <h2>This Week's Specials</h2>
+          <h2>This Week's Specials!</h2>
           <button>Menu</button>
         </div>
         <div class='container'>
@@ -30,8 +30,8 @@ function Welcome() {
             <div class="card">
               <img src={SaladImg} alt="Salad" />
               <div class="card-container">
-                <h4><b>Salad</b></h4>
-                <p>Architect & Engineer</p>
+                <h4>Salad</h4><h5>$14.99</h5>
+                <p>A classic bed of baby romaine and baby spinach comes with our homemade house vinegarette and your choice of proteins.</p>
               </div>
             </div>
           </div>
@@ -39,8 +39,8 @@ function Welcome() {
             <div class="card">
               <img src={PizzaImg} alt="Pizza"/>
               <div class="card-container">
-                <h4><b>Pizza</b></h4>
-                <p>Architect & Engineer</p>
+                <h4>Pizza</h4><h5>$18.99</h5>
+                <p>Our grilled, thin crust pizza comes with your choice of cheese and toppings.</p>
               </div>
             </div>
           </div>
@@ -48,8 +48,8 @@ function Welcome() {
             <div class="card">
               <img src={SalmonImg} alt="Salmon" />
               <div class="card-container">
-                <h4><b>Salmon</b></h4>
-                <p>Architect Engineer</p>
+                <h4>Salmon</h4><h5>$18.99</h5>
+                <p>Our salmon is pan-seared and served on top of a bed of sauted spinach. It is served with roasted seasonal vegetables and a balsamic glaze.</p>
               </div>
             </div>
           </div>
