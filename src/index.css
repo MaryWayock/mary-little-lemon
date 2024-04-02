@@ -39,6 +39,9 @@ p {
 
 button {
   background-color: #f4ce14;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
 }
 
 code {
@@ -72,7 +75,7 @@ footer {
 }
 
 #WelcomeSection img{
-  width: 150px;
+  width: 300px;
   margin: 3rem;
 }
 
