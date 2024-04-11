@@ -10,7 +10,7 @@ function Welcome() {
       <section class='container' id='WelcomeSection'>
           <div class='column'  >
             <h1>Little Lemon</h1>
-            <h3>New York</h3>
+            <h3>Chicago</h3>
             <p>We are a family owned Mediterranean restaurant, <br/> 
               focused on traditional recipes <br/>
               served with a modern twist.</p>

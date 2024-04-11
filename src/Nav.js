@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './App.css';
 
 
 function Nav() {
@@ -16,6 +17,9 @@ function Nav() {
       </li>
       <li>
         <Link to="/reservations">Reservations</Link>
+      </li>
+      <li>
+        <Link to="/testimonials">Testimonials</Link>
       </li>
     </ul>
   )

@@ -117,3 +117,10 @@ footer {
   border-radius: 5px 5px 0 0;
   background-color: #edefee;
 }
+
+#PagNav :link {
+  font-weight: bold;
+  font-family: Karla;
+  font-size: 18pt;
+  color: #333333;
+}
