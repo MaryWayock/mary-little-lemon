@@ -50,8 +50,9 @@ code {
 }
 
 #HeaderNav.flex-container {
-  display: flex;
+  display: grid;
   justify-content: left;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 #HeaderLogo {
@@ -74,22 +75,26 @@ footer {
   font-size: small;
 }
 
+#WelcomeSection{
+  background-color: #495e57;
+}
+
 #WelcomeSection img{
   width: 300px;
   margin: 3rem;
 }
 
 .container {
-  display: flex;
+  display: grid;
   justify-content: space-around;
-
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .container .column {
   flex: 1;
   text-align: center;
-  background-color: #495e57;
-}
+  
+} 
 
 .card {
   /* Add shadows to create the "card" effect */
@@ -118,9 +123,14 @@ footer {
   background-color: #edefee;
 }
 
-#PagNav :link {
+#PageNav a {
   font-weight: bold;
   font-family: Karla;
   font-size: 18pt;
   color: #333333;
+  text-decoration: none;
+}
+
+#PageNav a:hover {
+  color: #495e57;
 }
